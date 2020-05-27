@@ -8,7 +8,6 @@ end
 
 
 def not_safe?(speed)
-  binding.pry
 	conditions > 60 ? true : false
 end
 	
