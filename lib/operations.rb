@@ -1,5 +1,3 @@
-require 'pry'
-
 def unsafe?(speed)
   binding.pry
 if speed < 40 || speed > 60
